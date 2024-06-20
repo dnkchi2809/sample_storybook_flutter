@@ -17,3 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 - Run monarch storybook: `monarch run`
 - Run storybook dart (as a flutter app): `flutter run`
+- Run widgetBook (as a separated flutter app): 
+`cd widgetbook`
+then
+`flutter run`
