@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5825205d-b96f-436b-b3ac-c0eceb90992c" name="Changes" comment="fix: update README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/sample_storybook_flutter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2i7n1tRXKMZcie2Q9wtr2mGyDGR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/kimchi/WebstormProjects/sample_storybook_flutter/sample_widgetbook/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "copyright.filetypes.Dart",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample_widgetbook/lib" />
+      <recent name="$PROJECT_DIR$/sample_widgetbook" />
+      <recent name="$PROJECT_DIR$/sample_storybook_flutter/lib" />
+      <recent name="$PROJECT_DIR$/sample_monarch/lib" />
+      <recent name="$PROJECT_DIR$/sample_monarch" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample_widgetbook/lib" />
+      <recent name="$PROJECT_DIR$/sample_widgetbook" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/assets" />
+      <recent name="$PROJECT_DIR$/lib/buttons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="sample_storybook_flutter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="sample_storybook_flutter" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+    <option name="toolchainPathValue" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5825205d-b96f-436b-b3ac-c0eceb90992c" name="Changes" comment="" />
+      <created>1718850270510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718850270510</updated>
+      <workItem from="1718850271541" duration="17267000" />
+      <workItem from="1718932708956" duration="7973000" />
+      <workItem from="1718950781602" duration="7895000" />
+      <workItem from="1718959695857" duration="1024000" />
+      <workItem from="1718960723543" duration="331000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: init">
+      <option name="closed" value="true" />
+      <created>1718850446338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718850446338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: monarch stories">
+      <option name="closed" value="true" />
+      <created>1718850639144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718850639144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: storybook dart">
+      <option name="closed" value="true" />
+      <created>1718869335297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718869335297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: widgetbook">
+      <option name="closed" value="true" />
+      <created>1718878673086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718878673086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: widgetbook">
+      <option name="closed" value="true" />
+      <created>1718940604689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718940604689</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: widgetbook assets">
+      <option name="closed" value="true" />
+      <created>1718951010712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718951010712</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: custom app theme">
+      <option name="closed" value="true" />
+      <created>1718955829654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718955829654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: separate project">
+      <option name="closed" value="true" />
+      <created>1718957581988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718957581988</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: separate project">
+      <option name="closed" value="true" />
+      <created>1718958883754</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718958883754</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: update README.md">
+      <option name="closed" value="true" />
+      <created>1718959066284</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718959066284</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: init" />
+    <MESSAGE value="feat: monarch stories" />
+    <MESSAGE value="feat: storybook dart" />
+    <MESSAGE value="feat: widgetbook" />
+    <MESSAGE value="fix: widgetbook" />
+    <MESSAGE value="feat: widgetbook assets" />
+    <MESSAGE value="feat: custom app theme" />
+    <MESSAGE value="feat: separate project" />
+    <MESSAGE value="fix: update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: update README.md" />
+  </component>
+</project>
