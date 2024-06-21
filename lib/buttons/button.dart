@@ -14,23 +14,21 @@ class CoolButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
-        children: [
-          ElevatedButton(
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(backgroundColor: buttonColor),
-              child: Text(
-                buttonValue,
-                style: TextStyle(color: Colors.white, fontSize: buttonSize),
-              )),
-          Image.asset(
-            'image002.jpg',
-            package: 'assets',
-          )
+    return Column(
+      children: [
+        ElevatedButton(
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(backgroundColor: buttonColor),
+            child: Text(
+              buttonValue,
+              style: TextStyle(color: Colors.white, fontSize: buttonSize),
+            )),
+        // Image.asset(
+        //   'image002.jpg',
+        //   package: 'assets',
+        // )
 
-        ],
-      ),
+      ],
     );
   }
 }
