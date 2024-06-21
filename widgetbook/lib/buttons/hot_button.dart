@@ -5,7 +5,7 @@ import 'package:widgetbook_annotation/widgetbook_annotation.dart' as widgetbook;
 // Import the widget from your app
 import 'package:sample_storybook_flutter/buttons/button.dart';
 
-@widgetbook.UseCase(name: 'Hot button', type: CoolButton)
+@widgetbook.UseCase(name: 'Red button', type: CoolButton)
 Widget buildCoolButtonUseCase(BuildContext context) {
   return CoolButton(
     buttonValue:
