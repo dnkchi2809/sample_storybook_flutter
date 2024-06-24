@@ -3,7 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:dashbook/dashbook.dart';
 
 void main() {
-  final dashbook = Dashbook();
+  final dashbook = Dashbook.dualTheme(
+    light: ThemeData(),
+    dark: ThemeData.dark(),
+    title: 'Dashbook Example',
+    autoPinStoriesOnLargeScreen: true,
+  );
+
 
   // Adds the Text widget stories
   dashbook
@@ -12,38 +18,54 @@ void main() {
       // which will center all the widgets on the center of the screen
       .decorator(CenterDecorator())
       // The Widget story can have as many chapters as needed
-      .add('default', (ctx) {
+      .add('default', (widget) {
     return Container(
         width: 300,
         child: Text(
-          ctx.textProperty("text", "Text Example"),
-          textAlign: ctx.listProperty(
+          widget.textProperty("text", "Text Example"),
+          textAlign: widget.listProperty(
             "text align",
             TextAlign.center,
             TextAlign.values,
           ),
-          textDirection: ctx.listProperty(
+          textDirection: widget.listProperty(
             "text direction",
             TextDirection.rtl,
             TextDirection.values,
           ),
           style: TextStyle(
-              fontWeight: ctx.listProperty(
+              fontWeight: widget.listProperty(
                 "font weight",
                 FontWeight.normal,
                 FontWeight.values,
               ),
-              fontStyle: ctx.listProperty(
+              fontStyle: widget.listProperty(
                 "font style",
                 FontStyle.normal,
                 FontStyle.values,
               ),
-              fontSize: ctx.numberProperty("font size", 20)),
+              fontSize: widget.numberProperty("font size", 20)),
         ));
   });
 
   dashbook.storiesOf('RaisedButton').decorator(CenterDecorator()).add(
-      'default', (ctx) => ElevatedButton(child: Text('Ok'), onPressed: () {}));
+      'default',
+      (ctx) => ElevatedButton(
+          child: Text(ctx.textProperty('name', 'defaultValue')),
+          onPressed: () {}));
+
+  dashbook
+      .storiesOf('CustomDialog')
+      .add('default', (ctx) {
+    ctx.action('Open dialog', (context) {
+      showDialog(
+        context: context,
+        builder: (_) => Text(ctx.textProperty('name', 'defaultValue')),
+      );
+    });
+
+    return Text(ctx.textProperty('name', 'defaultValue'));
+  });
 
   // Since dashbook is a widget itself, you can just call runApp passing it as a parameter
   runApp(dashbook);

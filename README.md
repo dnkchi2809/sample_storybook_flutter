@@ -43,4 +43,6 @@ flutter run
 -Run dashbook
 ```
 cd sample_dashbook
+
+flutter run
 ```

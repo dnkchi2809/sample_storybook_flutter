@@ -82,18 +82,18 @@ void addStories(Dashbook dashbook) {
       errorColor: ctx.colorProperty(
         'errorColor',
         const Color(0xFFCC6941),
-        visibilityControlProperty: ControlProperty(
-          'type',
-          MessageCardType.error,
-        ),
+        // visibilityControlProperty: ControlProperty(
+        //   'type',
+        //   MessageCardType.error,
+        // ),
       ),
       infoColor: ctx.colorProperty(
         'infoColor',
         const Color(0xFF5E89FF),
-        visibilityControlProperty: ControlProperty(
-          'type',
-          MessageCardType.info,
-        ),
+        // visibilityControlProperty: ControlProperty(
+        //   'type',
+        //   MessageCardType.info,
+        // ),
       ),
     ),
   );
